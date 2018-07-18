@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/idTextView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/cardview_shadow_end_color"
+        android:paddingTop="20dp"
+        android:text="10"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/idTextView1"
+        android:layout_toRightOf="@+id/idTextView1"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Name:"
+
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/idTextView1"
+        android:layout_toRightOf="@+id/idTextView1"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="Father's Nmae:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fatherTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView1"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_toEndOf="@+id/idTextView1"
+        android:layout_toRightOf="@+id/idTextView1"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="Mother's Name:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/motherTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fatherTextView1"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toEndOf="@+id/idTextView1"
+        android:layout_toRightOf="@+id/idTextView1"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="Phone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numberTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_toRightOf="@+id/textView9"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_toEndOf="@+id/idTextView1"
+        android:layout_toRightOf="@+id/idTextView1"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="Address:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addressTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberTextView1"
+        android:layout_toEndOf="@+id/textView11"
+        android:layout_toRightOf="@+id/textView11"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/cardview_light_background"
+        android:text="TextView" />
+</RelativeLayout>

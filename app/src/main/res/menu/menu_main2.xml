@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.btp.batchten.cdvsprototype.MainActivity">
+    <item
+        android:id="@+id/userMenuItem"
+        android:orderInCategory="100"
+        android:title="User"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/anganwadiWorkerMenuItem"
+        android:orderInCategory="100"
+        android:title="Anganwadi Worker"
+        app:showAsAction="never" ></item>
+
+</menu>

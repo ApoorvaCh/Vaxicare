@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/vaccineIDTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/vaccineNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/scheduledDatreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/administeredDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp" />
+</TableRow>
