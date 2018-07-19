@@ -129,7 +129,7 @@ public class BotFragment extends Fragment implements com.btp.batchten.cdvsprotot
         progress.setMessage("loading bot files");
         progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progress.setCancelable(false);
-        progress.show();
+       // progress.show();
         FileWriter writer = new FileWriter(getContext(),this);
         writer.execute();
     }
